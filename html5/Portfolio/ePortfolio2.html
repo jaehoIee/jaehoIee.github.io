@@ -6,18 +6,17 @@
 .col-1{width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{width:33.33%;}
 .col-5{width:41.66%;} .col-6{width:50%;} .col-7{width:58.33%;} .col-8{width:66.66%;}
 .col-9{width:75%;} .col-10{width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}
-[class*="col-"] {float:left; padding:10px;} .header, .footer {background-color:lightgray; color:blue; padding: 10px;}
+[class*="col-"] {float:left; padding:10px;} .header, .footer {color:blue; padding: 10px;}
 .menu ul, .banner ul {list-style-type:none; }
 .menu li {background-color:pink; color:black; padding: 10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:red;}
 .banner li {border:2px solid black; padding:10px; margin-bottom: 10px; box-shadow:0 1px 3px gray;}
 .banner li img {width:100%; vertical-align:middle;}
+.banner2 li img {width:30%; vertical-align:middle;}
 @media only screen and (max-width: 768px) {[class*="col-"] {width: 100%}}
-
 header #headMenu{float:right; border:solid 1px gray; margin:0 0 0 0;}
 </style>
 <title>시멘틱 학습</title></head>
-  
 <body>
 <header class="header">
 <h2><a href="https://jaehoiee.github.io/html5/hw7_1/basicSemantic4.html">20201354 컴퓨터공학과 이재호 포트폴리오</a></h2>
@@ -29,14 +28,12 @@ header #headMenu{float:right; border:solid 1px gray; margin:0 0 0 0;}
 <section class="col-3 banner">
 <ul><li><img src="https://i.ibb.co/yBg5Vzr/jcr-content.jpg"></li></ul></section>
 </header>
-
 <nav class="col-3 menu">
 <ul>
 <li><a href="https://www.ihd.or.kr/main.do" target="_blank">리눅스 마스터</a></li>
 <li><a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html" target="_blank">CCNA</a></li>
 <li><a href="https://korea.pearsonvue.com/" target="_blank">OCJP</a></li></ul>
 </nav>
-  
 <section class="col-6">	<!-- main -->
 <section class="col-5"><a href="anchor2.html"><h3 id="chapter1">자격증 보유현황</h3></a>
 <li>저는 이전부터 다양한 분야의 자격증을 취득하기 위해 노력해왔고 그 결과 컴퓨터에 관한 여러 자격증을 취득하는데에 초점을 맞추어왔습니다. 이러한 자격증도 저에게 여러 방면으로 도움이 되었지만 앞으로는 저의 전공과 더욱 밀접한 관련이 있는 자격증을 취득할 계획입니다. 자세한 내용은 타이틀을 클릭하시면 됩니다.</li>
@@ -66,14 +63,10 @@ header #headMenu{float:right; border:solid 1px gray; margin:0 0 0 0;}
 <tr><td>교내행사</td><td><a href="https://www.dju.ac.kr/dju/na/ntt/selectNttInfo.do?nttSn=507550&bbsId=1040&mi=1188">홀랜드</a></td><td>직업심리검사</td></tr>
 <tr><td>교내행사</td><td><a href="https://www.dju.ac.kr/dju/na/ntt/selectNttInfo.do?nttSn=507249&bbsId=1040&mi=1188">DJU TED</a></td><td>발표회</td></tr></table></section></section>
 </section>	<!-- main -->
-
-<aside class="col-3 banner">
+<aside class="col-3 banner2">
 <ul>
 <li><a href=https://www.kpc.or.kr><img src="https://i.ibb.co/sFNYM54/KPCjpeg.jpg" alt="KPC"/></a></li>
 </ul>
 </aside>
-<footer class="footer">
-<p>&copy; 20XX Made by Korea. All right reserved</p>
-</footer>
 </body>
 </html>
